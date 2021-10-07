@@ -22,7 +22,7 @@ class Defaults:
     # Experiment Parameters
     # ----------------------
     STEPS_PER_EPOCH = 5000
-    EPOCHS = 50
+    EPOCHS = 10
     STEPS_PER_TEST = 1000
     PERIOD_BTW_SUMMARY_PERFS = 1
     
@@ -48,7 +48,7 @@ class Defaults:
     EPSILON_MIN = 1.0
     EPSILON_DECAY = 10000
     UPDATE_FREQUENCY = 1
-    REPLAY_MEMORY_SIZE = 1000000 #replacing with 200000 will works just fine (in case you dont have 18gb of memory)
+    REPLAY_MEMORY_SIZE = 200000 #replacing with 200000 will works just fine (in case you dont have 18gb of memory)
     BATCH_SIZE = 32
     FREEZE_INTERVAL = 1000
     DETERMINISTIC = False
